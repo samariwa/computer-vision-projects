@@ -1,0 +1,32 @@
+,,,,,,,,,,,,,,,,,,
+1. DATA,,,3. LOSS FUNCTION,,,2. MODEL,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+Team,Clean Sheets,In Top 10,"Predicted
+In Top 10",Cross-Entropy,,The In Top 10 formula,,,,,,,,,,,,
+Manchester City,12,1,0.88,0.13,,Prob(In Top Ten),=,sigmoid(,1.00,x,Clean Sheets,+,10.00,),,y,y_hat,cross entropy
+Manchester United,15,1,0.99,0.01,,,,,,,,,,,,1,0.99,0.0101
+Chelsea,14,1,0.98,0.02,,,,,,,,,,,,1,0.01,4.6052
+Tottenham Hotspur,11,1,0.73,0.31,,,,,,,,,,,,1,0.50,0.6931
+Liverpool,10,1,0.50,0.69,,,,,,,,,,,,0,0.99,4.6052
+Swansea City,7,1,0.05,3.05,,,,,,,,,,,,0,0.01,0.0101
+Leicester City,7,1,0.05,3.05,,,,,,,,,,,,0,0.50,0.6931
+Arsenal,9,1,0.27,1.31,,,,,,,,,,,,,,
+Watford,6,1,0.02,4.02,,,,,,,,,,,,,x,sigmoid(x)
+Burnley,10,1,0.50,0.69,,,,,,,,,,,,,-5,0.0067
+Brighton,8,0,0.12,0.13,,,,,,,,,,,,,-4,0.0180
+Southampton,6,0,0.02,0.02,,,,,,,,,,,,,-3,0.0474
+Bournemouth,5,0,0.01,0.01,,,,,,,,,,,,,-2,0.1192
+West Bromwich Albion,7,0,0.05,0.05,,,,,,,,,,,,,-1,0.2689
+West Ham United,6,0,0.02,0.02,,,,,,,,,,,,,0,0.5000
+Huddersfield Town,7,0,0.05,0.05,,,,,,,,,,,,,1,0.7311
+Newcastle United,5,0,0.01,0.01,,,,,,,,,,,,,2,0.8808
+Everton,6,0,0.02,0.02,,,,,,,,,,,,,3,0.9526
+Crystal Palace,5,0,0.01,0.01,,,,,,,,,,,,,4,0.9820
+Stoke City,4,0,0.00,0.00,,,,,,,,,,,,,5,0.9933
+,Average Cross-Entropy Loss,,,0.82,,,,,,,,,,,,,,
+,(the lower the better),,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+Your Team,Clean Sheets,"Predicted 
+In Top 10",,,,,,,,,,,,,,,,
+My Team,13,0.952574127,,,,,,,,,,,,,,,,
